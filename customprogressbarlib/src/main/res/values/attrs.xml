@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义属性的声明-->
+    <attr name="progress_unreach_color" format="color"></attr>  <!--进度条未走的颜色-->
+    <attr name="progress_unreach_height" format="dimension"></attr> <!--进度条未走的高度-->
+    <attr name="progress_reach_color" format="color"></attr>    <!--进度已走的颜色-->
+    <attr name="progress_reach_height" format="dimension"></attr>   <!--进度已走的高度-->
+    <attr name="progress_text_color" format="color"></attr>     <!--字体的颜色-->
+    <attr name="progress_text_size" format="dimension"></attr>  <!--字体的大小-->
+    <attr name="progress_text_offset" format="dimension"></attr>    <!--字体间距-->
+
+
+    <!--自定义属性的使用-->
+    <declare-styleable name="HorizontalProgressBarWithProgress">
+        <attr name="progress_unreach_color"></attr>
+        <attr name="progress_unreach_height"></attr>
+        <attr name="progress_reach_color"></attr>
+        <attr name="progress_reach_height"></attr>
+        <attr name="progress_text_color"></attr>
+        <attr name="progress_text_size"></attr>
+        <attr name="progress_text_offset"></attr>
+    </declare-styleable>
+
+    <!--声明和使用也可放在一起-->
+    <declare-styleable name="RoundProgressBarWithProgress">
+        <attr name="radius" format="dimension"></attr>  <!--圆形进度条半径-->
+    </declare-styleable>
+</resources>

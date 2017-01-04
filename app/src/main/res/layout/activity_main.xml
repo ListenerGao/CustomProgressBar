@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <com.listenergao.customprogressbar_library.HorizontalProgressBarWithProgress
+        <com.listenergao.customprogressbarlib.HorizontalProgressBarWithProgress
             android:id="@+id/progress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -21,7 +21,7 @@
             listener:progress_text_color="#ffff0000"
             listener:progress_unreach_color="#44ff0000" />
 
-        <com.listenergao.customprogressbar_library.HorizontalProgressBarWithProgress
+        <com.listenergao.customprogressbarlib.HorizontalProgressBarWithProgress
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -33,7 +33,7 @@
             listener:progress_unreach_color="#4490EE90"
             listener:progress_unreach_height="6dp" />
 
-        <com.listenergao.customprogressbar_library.RoundProgressBarWithProgress
+        <com.listenergao.customprogressbarlib.RoundProgressBarWithProgress
             android:id="@+id/round_progress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
             listener:progress_unreach_color="#44ff0000"
             />
 
-        <com.listenergao.customprogressbar_library.RoundProgressBarWithProgress
+        <com.listenergao.customprogressbarlib.RoundProgressBarWithProgress
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             listener:radius="20dp"
@@ -60,7 +60,7 @@
             listener:progress_unreach_color="#44ff0000"
             />
 
-        <com.listenergao.customprogressbar_library.RoundProgressBarWithProgress
+        <com.listenergao.customprogressbarlib.RoundProgressBarWithProgress
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             listener:radius="30dp"

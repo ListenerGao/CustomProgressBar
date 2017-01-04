@@ -5,8 +5,9 @@ import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 
-import com.listenergao.customprogressbar_library.HorizontalProgressBarWithProgress;
-import com.listenergao.customprogressbar_library.RoundProgressBarWithProgress;
+import com.listenergao.customprogressbarlib.HorizontalProgressBarWithProgress;
+import com.listenergao.customprogressbarlib.RoundProgressBarWithProgress;
+
 
 public class MainActivity extends AppCompatActivity {
 

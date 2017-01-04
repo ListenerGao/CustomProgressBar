@@ -9,7 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/customprogressbar_library" />
+            <option value="$PROJECT_DIR$/customprogressbarlib" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

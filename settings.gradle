@@ -1,1 +1,1 @@
-include ':app', ':customprogressbar_library'
+include ':app', ':customprogressbarlib'
