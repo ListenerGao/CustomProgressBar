@@ -30,7 +30,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.3.0'
 }
 publish {
-    userOrg = 'hnthgys'//bintray.com用户名
+    userOrg = 'listenergao'//bintray.com用户名
     groupId = 'com.listenergao'//jcenter上的路径
     artifactId = 'customprogressbarlib'//项目名称
     publishVersion = '1.0.0'//版本号
